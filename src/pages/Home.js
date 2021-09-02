@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Members from './Members';
 function Home() {
     return (
         <div className="row ">
@@ -87,6 +88,7 @@ function Home() {
                     </div>
                 </section>
             </div>
+            <Members />
         </div>
     );
 }

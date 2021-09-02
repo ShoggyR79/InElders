@@ -1,46 +1,35 @@
 import React, { Component } from 'react';
-class signin extends Component {
-    render() {
-        return (
-            <div className="row ">
-                <div className="medium-12 columns">
-    <div class="main">
-        <section class="sign-in">
-            <div class="container">
-                <div class="signin-content">
-                    <div class="signin-image">
-                        <figure><img src="img/img-03.jpg" alt="sing up image"/></figure>
-                        <a href="Signout.html" class="signup-image-link">Create an account</a>
-                    </div>
-                    <div class="signin-form">
-                        <h2 class="form-title">Sign in</h2>
-                        <form method="POST" class="register-form" id="login-form">
-                            <div class="form-group">
-                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="your_name" id="your_name" placeholder="Your Name"/>
+import "./Signin.css"
+function Signin() {
+    return ( 
+            <div class="Cen">
+                <div class="col-md-6 mx-auto p-0">
+                    <div class="card">
+                        <div class="login-box">
+                            <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked/><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"/><label for="tab-2" class="tab">Sign Up</label>
+                                <div class="login-space">
+                                    <div class="login">
+                                        <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Enter your username"/> </div>
+                                        <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"/> </div>
+                                        <div class="group"> <input id="check" type="checkbox" class="check" checked/> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                                        <div class="group"> <input type="submit" class="button" value="Sign In"/> </div>
+                                        <div class="hr"></div>
+                                        <div class="foot"> <a href="">Forgot Password?</a> </div>
+                                    </div>
+                                    <div class="sign-up-form">
+                                        <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Create your Username"/> </div>
+                                        <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password"/> </div>
+                                        <div class="group"> <label for="pass" class="label">Repeat Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password"/> </div>
+                                        <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" placeholder="Enter your email address"/> </div>
+                                        <div class="group"> <input type="submit" class="button" value="Sign Up"/> </div>
+                                        <div class="hr"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
-                            </div>
-                            <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
-                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
-                            </div>
-                            <div class="form-group form-button">
-                                                <a href="#"></a>
-                                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-    </div>
-                </div>
-            </div>
-        );
-    }
+    );
 }
-export default signin;
+export default Signin;

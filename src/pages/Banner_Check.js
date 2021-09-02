@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-function Banner() {
+function Banner_Check() {
     return (
         <div className="row ">
             <div className="medium-12 columns">
-                <section id="banner" class="banner">
+                <section id="banner-check" class="banner">
                     <div class="bg-color-journal">
                         <nav class="navbar navbar-default navbar-fixed-top">
                             <div class="container">
@@ -19,9 +19,9 @@ function Banner() {
                                     </div>
                                     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                                         <ul class="nav navbar-nav">
-                                            <li class="active"><a href="/">Home</a></li>
+                                            <li class=""><a href="/">Home</a></li>
                                             <li class=""><a href="/Journal">The Journal</a></li>
-                                            <li class=""><a href="/Checklist">Daily Checklist</a></li>
+                                            <li class="active"><a href="/Checklist">Daily Checklist</a></li>
                                             <li class=""><a href="#testimonial">Mood State</a></li>
                                             <li class=""><a href="/Profile">Your account</a></li>
                                         </ul>
@@ -36,8 +36,8 @@ function Banner() {
                                         <img src="img/logo.png" class="img-responsive" />
                                     </div>
                                     <div class="banner-text text-center">
-                                        <h1 class="white">Welcome!</h1>
-                                        <h3 class = "white"> We are here for you - the elders ! </h3>
+                                        <h1 class="white">Your Checklist</h1>
+                                        <h3 class= "white">Write & Check your status here on a daily basis</h3>
                                     </div>
                                     <div class="overlay-detail text-center">
                                         <a href="#service"><i class="fa fa-angle-down"></i></a>
@@ -51,4 +51,4 @@ function Banner() {
         </div>
     );
 }
-export default Banner;
+export default Banner_Check;

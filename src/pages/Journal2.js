@@ -11,9 +11,7 @@ class Journal2 extends Component {
                                     <div class="tm-content-box">
                                         <img src="img/tm-img-310x180-1.jpg" alt="Image" class="tm-margin-b-20 img-fluid" />
                                         <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #1</h4>
-                                        <p class="tm-margin-b-20">Aenean cursus tellus mauris, quis
-                                        consequat mauris dapibus id. Donec
-                    scelerisque porttitor pharetra</p>
+                                        <p class="tm-margin-b-20">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra</p>
                                         <a href="#" class="tm-btn text-uppercase">Detail</a>
                                     </div>
                                 </div>
@@ -64,7 +62,6 @@ class Journal2 extends Component {
 
                                     </div>
                                 </div>
-
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
                                     <div class="tm-2-col-right">
@@ -74,7 +71,7 @@ class Journal2 extends Component {
                                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                     <h3 class="tm-gold-text tm-title">
                                                         Categories
-                                    </h3>
+                                                    </h3>
                                                     <nav>
                                                         <ul class="nav">
                                                             <li><a href="#" class="tm-text-link">Tincidunt non faucibus placerat</a></li>
@@ -88,7 +85,7 @@ class Journal2 extends Component {
                                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-xs-m-t">
                                                     <h3 class="tm-gold-text tm-title">
                                                         Useful Links
-                                    </h3>
+                                                     </h3>
                                                     <nav>
                                                         <ul class="nav">
                                                             <li><a href="#" class="tm-text-link">Suspendisse sed dui nulla</a></li>

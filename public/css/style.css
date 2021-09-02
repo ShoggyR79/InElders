@@ -133,6 +133,18 @@ banner
 {
     background-color: rgba(12, 184, 182) !important;
 }
+#banner-pro {
+    background: url('../img/banner-pro.png') no-repeat fixed;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
+#banner-check {
+    background: url('../img/banner-check.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
 #banner-journal {
     background: url('../img/bg-banner-journal.jpg') no-repeat fixed;
     background-size: cover;
@@ -140,7 +152,7 @@ banner
     position: relative;
 }
 #banner{
-	background: url('../img/bg-banner.jpg') no-repeat fixed;
+	background: url('../img/banner.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 650px;
 	position: relative;
